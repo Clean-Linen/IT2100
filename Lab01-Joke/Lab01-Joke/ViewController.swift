@@ -7,8 +7,8 @@
 
 import UIKit
 class ViewController: UIViewController {
- @IBOutlet var jokeLabel: UITextView!
- @IBOutlet var punchlineLabel: UITextView!
+ @IBOutlet var jokeLabel: UILabel!
+ @IBOutlet var punchlineLabel: UILabel!
 
  override func viewDidLoad() {
  super.viewDidLoad()

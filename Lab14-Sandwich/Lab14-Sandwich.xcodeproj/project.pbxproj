@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC842D8263731A600A955FD /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC842D7263731A600A955FD /* Tests_iOS.swift */; };
+		3DC842E3263731A600A955FD /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC842E2263731A600A955FD /* Tests_macOS.swift */; };
+		3DC842E5263731A600A955FD /* Lab14_SandwichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC842BC263731A200A955FD /* Lab14_SandwichApp.swift */; };
+		3DC842E6263731A600A955FD /* Lab14_SandwichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC842BC263731A200A955FD /* Lab14_SandwichApp.swift */; };
+		3DC842E7263731A600A955FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC842BD263731A200A955FD /* ContentView.swift */; };
+		3DC842E8263731A600A955FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC842BD263731A200A955FD /* ContentView.swift */; };
+		3DC842E9263731A600A955FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC842BE263731A600A955FD /* Assets.xcassets */; };
+		3DC842EA263731A600A955FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC842BE263731A600A955FD /* Assets.xcassets */; };
+		3DC842FE263731BC00A955FD /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC842FD263731BC00A955FD /* Sandwich.swift */; };
+		3DC842FF263731BC00A955FD /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC842FD263731BC00A955FD /* Sandwich.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DC842D4263731A600A955FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC842B7263731A200A955FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC842C2263731A600A955FD;
+			remoteInfo = "Lab14-Sandwich (iOS)";
+		};
+		3DC842DF263731A600A955FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC842B7263731A200A955FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC842CA263731A600A955FD;
+			remoteInfo = "Lab14-Sandwich (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DC842BC263731A200A955FD /* Lab14_SandwichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab14_SandwichApp.swift; sourceTree = "<group>"; };
+		3DC842BD263731A200A955FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DC842BE263731A600A955FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DC842C3263731A600A955FD /* Lab14-Sandwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab14-Sandwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC842C6263731A600A955FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC842CB263731A600A955FD /* Lab14-Sandwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab14-Sandwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC842CD263731A600A955FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC842CE263731A600A955FD /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3DC842D3263731A600A955FD /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC842D7263731A600A955FD /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		3DC842D9263731A600A955FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC842DE263731A600A955FD /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC842E2263731A600A955FD /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		3DC842E4263731A600A955FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC842FD263731BC00A955FD /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DC842C0263731A600A955FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC842C8263731A600A955FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC842D0263731A600A955FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC842DB263731A600A955FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DC842B6263731A200A955FD = {
+			isa = PBXGroup;
+			children = (
+				3DC842BB263731A200A955FD /* Shared */,
+				3DC842C5263731A600A955FD /* iOS */,
+				3DC842CC263731A600A955FD /* macOS */,
+				3DC842D6263731A600A955FD /* Tests iOS */,
+				3DC842E1263731A600A955FD /* Tests macOS */,
+				3DC842C4263731A600A955FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DC842BB263731A200A955FD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3DC842BC263731A200A955FD /* Lab14_SandwichApp.swift */,
+				3DC842BD263731A200A955FD /* ContentView.swift */,
+				3DC842BE263731A600A955FD /* Assets.xcassets */,
+				3DC842FD263731BC00A955FD /* Sandwich.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3DC842C4263731A600A955FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DC842C3263731A600A955FD /* Lab14-Sandwich.app */,
+				3DC842CB263731A600A955FD /* Lab14-Sandwich.app */,
+				3DC842D3263731A600A955FD /* Tests iOS.xctest */,
+				3DC842DE263731A600A955FD /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DC842C5263731A600A955FD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3DC842C6263731A600A955FD /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		3DC842CC263731A600A955FD /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3DC842CD263731A600A955FD /* Info.plist */,
+				3DC842CE263731A600A955FD /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		3DC842D6263731A600A955FD /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3DC842D7263731A600A955FD /* Tests_iOS.swift */,
+				3DC842D9263731A600A955FD /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		3DC842E1263731A600A955FD /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3DC842E2263731A600A955FD /* Tests_macOS.swift */,
+				3DC842E4263731A600A955FD /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DC842C2263731A600A955FD /* Lab14-Sandwich (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC842ED263731A600A955FD /* Build configuration list for PBXNativeTarget "Lab14-Sandwich (iOS)" */;
+			buildPhases = (
+				3DC842BF263731A600A955FD /* Sources */,
+				3DC842C0263731A600A955FD /* Frameworks */,
+				3DC842C1263731A600A955FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab14-Sandwich (iOS)";
+			productName = "Lab14-Sandwich (iOS)";
+			productReference = 3DC842C3263731A600A955FD /* Lab14-Sandwich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DC842CA263731A600A955FD /* Lab14-Sandwich (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC842F0263731A600A955FD /* Build configuration list for PBXNativeTarget "Lab14-Sandwich (macOS)" */;
+			buildPhases = (
+				3DC842C7263731A600A955FD /* Sources */,
+				3DC842C8263731A600A955FD /* Frameworks */,
+				3DC842C9263731A600A955FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab14-Sandwich (macOS)";
+			productName = "Lab14-Sandwich (macOS)";
+			productReference = 3DC842CB263731A600A955FD /* Lab14-Sandwich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DC842D2263731A600A955FD /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC842F3263731A600A955FD /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				3DC842CF263731A600A955FD /* Sources */,
+				3DC842D0263731A600A955FD /* Frameworks */,
+				3DC842D1263731A600A955FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC842D5263731A600A955FD /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 3DC842D3263731A600A955FD /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3DC842DD263731A600A955FD /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC842F6263731A600A955FD /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				3DC842DA263731A600A955FD /* Sources */,
+				3DC842DB263731A600A955FD /* Frameworks */,
+				3DC842DC263731A600A955FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC842E0263731A600A955FD /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 3DC842DE263731A600A955FD /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DC842B7263731A200A955FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3DC842C2263731A600A955FD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3DC842CA263731A600A955FD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3DC842D2263731A600A955FD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3DC842C2263731A600A955FD;
+					};
+					3DC842DD263731A600A955FD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3DC842CA263731A600A955FD;
+					};
+				};
+			};
+			buildConfigurationList = 3DC842BA263731A200A955FD /* Build configuration list for PBXProject "Lab14-Sandwich" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DC842B6263731A200A955FD;
+			productRefGroup = 3DC842C4263731A600A955FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DC842C2263731A600A955FD /* Lab14-Sandwich (iOS) */,
+				3DC842CA263731A600A955FD /* Lab14-Sandwich (macOS) */,
+				3DC842D2263731A600A955FD /* Tests iOS */,
+				3DC842DD263731A600A955FD /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DC842C1263731A600A955FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC842E9263731A600A955FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC842C9263731A600A955FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC842EA263731A600A955FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC842D1263731A600A955FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC842DC263731A600A955FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DC842BF263731A600A955FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC842E7263731A600A955FD /* ContentView.swift in Sources */,
+				3DC842E5263731A600A955FD /* Lab14_SandwichApp.swift in Sources */,
+				3DC842FE263731BC00A955FD /* Sandwich.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC842C7263731A600A955FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC842E8263731A600A955FD /* ContentView.swift in Sources */,
+				3DC842E6263731A600A955FD /* Lab14_SandwichApp.swift in Sources */,
+				3DC842FF263731BC00A955FD /* Sandwich.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC842CF263731A600A955FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC842D8263731A600A955FD /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC842DA263731A600A955FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC842E3263731A600A955FD /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DC842D5263731A600A955FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC842C2263731A600A955FD /* Lab14-Sandwich (iOS) */;
+			targetProxy = 3DC842D4263731A600A955FD /* PBXContainerItemProxy */;
+		};
+		3DC842E0263731A600A955FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC842CA263731A600A955FD /* Lab14-Sandwich (macOS) */;
+			targetProxy = 3DC842DF263731A600A955FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DC842EB263731A600A955FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DC842EC263731A600A955FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3DC842EE263731A600A955FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4W6V6V4T5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Distance-Converter.Lab14-Sandwich";
+				PRODUCT_NAME = "Lab14-Sandwich";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DC842EF263731A600A955FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4W6V6V4T5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Distance-Converter.Lab14-Sandwich";
+				PRODUCT_NAME = "Lab14-Sandwich";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DC842F1263731A600A955FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4W6V6V4T5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Distance-Converter.Lab14-Sandwich";
+				PRODUCT_NAME = "Lab14-Sandwich";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3DC842F2263731A600A955FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4W6V6V4T5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Distance-Converter.Lab14-Sandwich";
+				PRODUCT_NAME = "Lab14-Sandwich";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3DC842F4263731A600A955FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4W6V6V4T5;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Distance-Converter.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab14-Sandwich (iOS)";
+			};
+			name = Debug;
+		};
+		3DC842F5263731A600A955FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4W6V6V4T5;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Distance-Converter.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lab14-Sandwich (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DC842F7263731A600A955FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4W6V6V4T5;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Distance-Converter.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Lab14-Sandwich (macOS)";
+			};
+			name = Debug;
+		};
+		3DC842F8263731A600A955FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4W6V6V4T5;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Distance-Converter.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Lab14-Sandwich (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DC842BA263731A200A955FD /* Build configuration list for PBXProject "Lab14-Sandwich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC842EB263731A600A955FD /* Debug */,
+				3DC842EC263731A600A955FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC842ED263731A600A955FD /* Build configuration list for PBXNativeTarget "Lab14-Sandwich (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC842EE263731A600A955FD /* Debug */,
+				3DC842EF263731A600A955FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC842F0263731A600A955FD /* Build configuration list for PBXNativeTarget "Lab14-Sandwich (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC842F1263731A600A955FD /* Debug */,
+				3DC842F2263731A600A955FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC842F3263731A600A955FD /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC842F4263731A600A955FD /* Debug */,
+				3DC842F5263731A600A955FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC842F6263731A600A955FD /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC842F7263731A600A955FD /* Debug */,
+				3DC842F8263731A600A955FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DC842B7263731A200A955FD /* Project object */;
+}
